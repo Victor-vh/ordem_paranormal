@@ -1,1 +1,1 @@
-# ordem_paranormal
+# ordem-paranormal

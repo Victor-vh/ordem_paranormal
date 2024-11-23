@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="style_senha_ inicio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inicio</title>
+</head>
+<header>
+  <nav>
+</nav>
+</header>
+<body>
+  <form onsubmit="verificarSenha(event)">
+    <label for="senha"><h1>Senha</h1></label>
+    <input type="password" id="senha" required>
+    <br>
+    <button type="submit">Continuar</button>
+</form>
+
+<script>
+    function verificarSenha(event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+        const senhaCorreta = "01"; // Senha correta
+        const senhaInserida = document.getElementById("senha").value;
+
+        if (senhaInserida === senhaCorreta) {
+            // Redireciona para o site desejado
+            window.location.href = "inicio/index.html";
+        } else {
+            alert("Senha incorreta!");
+        }
+    }
+</script>
+
+</body>
+<footer>
+    <div class="textofooter">
+<h2>01100010 01100101 01101101 00100000 01110110 01101001 01101110 01100100 01101111 </h2>
+    </div>
+</footer>
+</html>

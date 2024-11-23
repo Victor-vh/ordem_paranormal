@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    place-items: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 28rem;
+    text-align: center;
+
+    padding: 200px;
+}
+footer{
+    padding-top: 5000px;
+    height: 100%;
+}
+.textofooter{
+   text-align: center; 
+    justify-content: space-evenly;
+}
+h2{
+    color: antiquewhite;
+}
+h1{
+    color:antiquewhite
+}
