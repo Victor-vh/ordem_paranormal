@@ -12,7 +12,7 @@
 </header>
 <body>
   <form onsubmit="verificarSenha(event)">
-    <label for="senha"><h1></h1></label>
+    <label for="senha"><h1>senha</h1></label>
     <input type="password" id="senha" required>
     <br>
     <button type="submit">Continuar</button>
@@ -21,7 +21,7 @@
 <script>
     function verificarSenha(event) {
         event.preventDefault(); // Impede o envio padrão do formulário
-        const senhaCorreta = "01"; // Senha correta
+        const senhaCorreta = ". -. --.. ---"; // Senha correta
         const senhaInserida = document.getElementById("senha").value;
 
         if (senhaInserida === senhaCorreta) {
